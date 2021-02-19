@@ -1,10 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Image } from 'react-native';
 
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Image style={styles.imgLogo} source={require('../../assets/logo.png')} />
     </View>
   );
 }
@@ -15,5 +15,9 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff',
       alignItems: 'center',
       justifyContent: 'center',
+    },
+    imgLogo: {
+      width: 320,
+      height: 150,
     },
   });

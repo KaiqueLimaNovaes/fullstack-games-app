@@ -31,9 +31,9 @@ export default function App() {
         />
 
         <Tab.Screen 
-          name="Pedidos"
-          component={Screens.Pedidos}
-          options={{tabBarIcon:({ color }) => (<Icon name="clipboard" color={color} size={24} />)}}
+          name="Login"
+          component={Screens.Login}
+          options={{tabBarIcon:({ color }) => (<Icon name="user" color={color} size={24} />)}}
         />
 
         <Tab.Screen 
